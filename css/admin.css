@@ -1,0 +1,209 @@
+/* ==========================================================================
+   PI - Back End
+   ========================================================================== */
+   
+/* ==========================================================================
+   Base Style
+   ========================================================================== */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+img{
+  max-width: 100%;
+}
+
+a:link,a:visited {
+  outline: 0;
+}
+
+a:hover,a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #777;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align:center;
+}
+
+/* ==========================================================================
+   Navbar Styles
+   ========================================================================== */
+   
+.navbar {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  background: #369656;
+  padding: 5px 0;
+  float:none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: padding .3s;
+  -moz-transition: padding .3s;
+  transition: padding .3s;
+}
+
+.navbar .nav li a {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.navbar .nav li a i{
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.navbar .nav li .user {
+  color: #FFFFFF;
+  font-size: 12px;
+  border-left: 2px solid #2b2b2b;
+}
+
+.navbar .nav li .user:hover {
+  background: #369656;
+  color: #FFFFFF;
+}
+.navbar .nav .dropdown .dropdown-menu {
+  background: #369656;
+  color: #fff;
+}
+
+.navbar .nav .dropdown .dropdown-menu a:hover {
+  background: #369656;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+  outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+  border: 0;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #fff;
+  background: #2b2b2b;
+}
+
+.navbar-fixed-top .navbar-brand {
+  font-weight: 700;
+  color: #fff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+.navbar-fixed-top .navbar-brand:hover {
+  color: #fff;
+  background: #369656;
+}
+
+.navbar-fixed-top.navbar-shrink {
+  padding: 10px 0;
+}
+
+.navbar-fixed-top.navbar-shrink .navbar-brand {
+  font-size: 1.5em;
+}
+
+/* ==========================================================================
+   Home Section
+   ========================================================================== */
+.admin{
+   background: #fff;
+   padding-top: 100px;
+   overflow:hidden;
+   color: #777;
+}
+
+.admin .panel .panel-heading{
+  background: #369656;
+  color: #fff;
+}
+
+.admin .panel .panel-heading .panel-title{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.admin .panel .panel-body p{
+  color: #777;
+  font-weight: 400;
+}
+
+.admin .panel .panel-body{
+  color: #777;
+  font-weight: 400;
+}
+
+.admin .panel .panel-body ul li a{
+  text-decoration: none;
+  color: #777;
+  font-weight: 400;
+}
+
+.admin .table-responsive {
+  color: #777;
+  }
+  
+.full-width{
+  width: 100%;
+  border-radius: 0px;
+}
+
+.admin .col-md-9 {
+  color: #777;
+  font-weight: 400;
+}  
+
+.admin .col-sm-3 a{
+  padding: 40px 10px;
+  display: block;
+  border-radius: 0px;
+  font-size: 20px;
+  color: #777;
+}
+
+.admin .col-sm-3 a i{
+  font-size: 60px;
+  color: #777;
+}
+
+.admin .col-md-3 .account a{
+  padding: 40px 10px;
+  display: block;
+  border-radius: 0px;
+  font-size: 20px;
+  color: #777;
+}
+
+.admin .col-md-3 .account a i{
+  font-size: 60px;
+  color: #777;
+}
+
+.admin .col-lg-4 .col-lg-offset-4 {
+  color: #fff;
+  background: #000000;
+}

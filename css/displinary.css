@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Pi - Prisons Management System
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #eee;
+}
+
+img{
+  max-width: 100%;
+}
+
+a:link,a:visited {
+  outline: 0;
+}
+
+a:hover,a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align:center;
+}
+
+/* ==========================================================================
+   Navbar Styles
+   ========================================================================== */
+
+.navbar-default {
+border-color: transparent;
+background-color: #dadada;
+}
+
+.navbar-toggle {
+border-color: transparent;
+border: 0px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #16a085;
+	color: white;
+}
+
+
+/* ==========================================================================
+   Login Section
+   ========================================================================== */
+.login {
+  background-color: #eee;
+  color: #000000;
+  margin: 40px 40px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login .col-lg-4{
+  padding-bottom: 40px;
+  border: 2px solid #fff;
+  background: #fff;
+  color: #2b2b2b;
+}
+
+.login .col-lg-4 h1{
+  color: #2b2b2b;
+  font-size: 22px;
+}
+
+.form-control{
+  border-radius: 0px;
+}
+
+.full-width{
+  width: 100%;
+  border-radius: 0px;
+}
+
+.login span {
+  font-size: 90px;
+  color: #e14f43;
+}
